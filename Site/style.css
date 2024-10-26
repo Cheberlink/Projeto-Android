@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "android";
+  src: url("idroid.otf") format("opentype");
+}
+
+body {
+  background-color: #84e1ad;
+  margin: 0px;
+}
+
+header {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to top, #14492c, #3ad07c);
+  text-align: center;
+  font-size: 12px;
+  padding: 20px;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+
+}
+
+header > p {
+  max-width: 500px;
+  margin: auto;
+}
+
+main > h1,
+h2 {
+  padding: 10px;
+  text-align: justify;
+  background-color: rgb(170, 206, 170);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+main > p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-indent: 30px;
+  text-align: justify;
+  margin: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.img {
+  text-align: center;
+}
+
+nav {
+  text-align: left;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  margin: 5px;
+}
+
+button:hover {
+
+  background-color: #3ad07c;
+  transition: 0.2s;
+  border-radius: 10px;
+}
+
+main {
+  background-color: white;
+  margin: auto;
+  padding: 1px;
+  text-align: center;
+  color: #14492c;
+  font-size: 10px;
+  font-family: "android", Helvetica, sans-serif;
+  box-shadow: 1px 1px 3px black;
+  margin-bottom: 10px;
+  max-width: 900px;
+  min-width: 320px;
+}
+
+img {
+  width: 400px;
+  height: 200px;
+}
+
+img#bug {
+  width: 300px;
+  height: 200px;
+}
+
+img#irina {
+  width: 100px;
+}
+
+footer {
+  background-color: #14492c;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 16px;
+  height: 20px;
+  color: white;
+}
+
+p#cheber {
+  font-weight: bolder;
+}
+
+.video{
+background-color: #14492c;
+margin: 0px -2.5px;
+padding: 20px;
+padding-bottom: 42%;
+position: relative;
+}
+
+.video > iframe{
+position: absolute;
+top: 5%;
+left: 15%;
+width: 70%;
+height: 90%;
+}
+
+header#div {
+  background-color: #379e65;
+  background-image: none;
+  padding: 1px;
+  border-radius: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+div > main {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0px;
+  background-color: #81c49fb6;
+}
+
+main img{
+  width: 100%;
+}
+
+aside{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+  background-color: #81c49fb6;
+  border-radius: 10px;
+  margin: 19px;
+}
+
+aside > ul{
+  columns: 2;
+  text-align: justify;
+  font-size: 14px;
+  list-style-type: '\2714';
+  margin-bottom: 20px;
+  
+}
+
+h3{
+  background-color: #296645;
+  border-radius: 10px 10px 0px 0px;
+  font-size: 1.8em;
+}
+
